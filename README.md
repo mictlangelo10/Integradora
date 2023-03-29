@@ -1,4 +1,4 @@
-# Integradora II
+# Sportacus Gym
 Repositorio dedicado integramente a la elaboración del proyecto asignado por la empresa Ittiva
 
 Integrantes del equipo
@@ -6,4 +6,6 @@ Integrantes del equipo
 - Miguel Ángel Hernández Solís (1220100587).
 - Miguel Ángel Jaime García (1220100319).
 - Filiberto Navarro Grifaldo (1221100296).  
+
+Descripción del proyecto:
 
