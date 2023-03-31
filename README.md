@@ -1,13 +1,13 @@
 # Sportacus Gym
 Repositorio dedicado integramente a la elaboración del proyecto asignado por la empresa Ittiva
 
-Integrantes del equipo
+# Integrantes del equipo
 - Daniela Janeth Cruz Breña	(1221100295).
 - Miguel Ángel Hernández Solís (1220100587).
 - Miguel Ángel Jaime García (1220100319).
 - Filiberto Navarro Grifaldo (1221100296).  
 
-Descripción del proyecto:
+# Descripción del proyecto
 
 El proyecto está basado en el desarrollo de un sistema que permita la gestión y administración de un Gimnasio que lleva por nombre “Sportacus Gym” el cual cuenta con diferentes servicios y consultorías que deberán de ser cubiertas por el sistema, brindando con ello una alternativa tecnológica y accesible para la administración de este, contando con diferentes módulos de acceso, en este documento se presentara la solución propuesta para el modulo de Clases y su conformación con el resto de los módulos del sistema. El módulo de clases es una parte del sistema que proporciona al Administrador la capacidad de realizar diversas acciones en relación con las clases disponibles en el sistema. El Administrador tendrá la capacidad de agregar nuevas clases al sistema, modificar las clases existentes, eliminar clases que ya no se necesiten y visualizar todas las clases disponibles. Este módulo también proporciona una interfaz clara y precisa para que el Administrador pueda gestionar fácilmente las características de las clases. Por ejemplo, el Administrador puede agregar información como el nombre de la clase, la descripción, el nivel de dificultad, la duración y cualquier otro detalle relevante. Además, el Administrador puede cambiar esta información en cualquier momento si es necesario. En resumen, el módulo de clases es una herramienta esencial para el Administrador del sistema, ya que le permite manejar y mantener fácilmente las clases disponibles, lo que garantiza un mejor control y organización del sistema en su conjunto.
 Su relación con otros módulos depende solo de la gestión de empleados ya que en relación con los datos que maneja el modulo de clases es necesario mantener un control sobre las asignaciones de empleados con roles de instructor a las clases creadas, para esto el modulo de clases necesita tener acceso a los datos de los empleados con este rol, para así seleccionar y asignar los datos del instructor con los datos de la Clase.
@@ -16,7 +16,8 @@ Si un cliente tiene un adeudo pendiente, el sistema genera un código QR que imp
 En resumen, el proyecto es un sistema de gestión y administración de un gimnasio llamado "Sportacus Gym". El módulo de clases permite al Administrador agregar, modificar, eliminar y visualizar las clases disponibles, lo que garantiza un mejor control y organización del sistema. El módulo de inscripciones permite al usuario inscribir a los clientes en las clases existentes utilizando un código QR, que varía según el estado de pago del cliente. Si el cliente tiene un adeudo, se les niega el acceso a las clases y se envía una alerta al personal del sistema, pero si el cliente está al día en sus pagos, se le permite inscribirse y se envía una alerta que indica que el registro se ha realizado correctamente.
 
 
-Lista de requisitos priorizada del proyecto refinada:
+# Lista de requisitos priorizada del proyecto refinada
+Historias de usuario
 <img width="746" alt="Historias de Usuario" src="https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG">
 
 Casos de uso:
@@ -69,7 +70,7 @@ Ilustración 15. Diagrama de Actividades-Buscar Clase
 ![image](https://user-images.githubusercontent.com/123588416/229189022-d793309e-2f83-4c64-b5f7-9570981ab374.png)
 Ilustración 16. Diagrama de Actividades- Buscar Instructor
 
-* Modelo de Base de Datos
+# Modelo de Base de Datos
 Diagrama de Interfaces: 
 ![image](https://user-images.githubusercontent.com/123588416/229189114-a24203a5-2010-4442-936e-73d4e4ad6ea0.png)
 Ilustración 17. Diagrama de Interfaces-Clases.
