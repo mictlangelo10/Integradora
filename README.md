@@ -37,14 +37,17 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 • Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
 
 # Lista de requisitos priorizada del proyecto refinada
-Historias de usuario
+- Historias de usuario
+
 <img width="746" alt="Historias de Usuario" src="https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG">
 
-Casos de uso:
+- Casos de uso
+
 ![image](https://user-images.githubusercontent.com/123588416/229188250-38e8fe23-1850-4bbc-bdda-e8efd0fc65de.png)
 Ilustración 1. Diagrama de Casos de Uso
 
-Diagrama de actividades:
+- Diagrama de actividades
+
 ![image](https://user-images.githubusercontent.com/123588416/229188338-e4f07879-9c93-4ede-b5b5-2bb7773ee94e.png)
 Ilustración 2. Diagrama de Actividades-Cargar Horarios	
 
@@ -91,18 +94,12 @@ Ilustración 15. Diagrama de Actividades-Buscar Clase
 Ilustración 16. Diagrama de Actividades- Buscar Instructor
 
 # Modelo de Base de Datos
-Diagrama de Interfaces: 
+- Diagrama de Interfaces
+
 ![image](https://user-images.githubusercontent.com/123588416/229189114-a24203a5-2010-4442-936e-73d4e4ad6ea0.png)
 Ilustración 17. Diagrama de Interfaces-Clases.
 
-Modelo de Base de Datos 
+- Modelo de Base de Datos
+
 ![image](https://user-images.githubusercontent.com/123588416/229189155-895dc007-4b78-41c2-b816-2b84b920ba99.png)
 Ilustración 18. Modelo Base de Datos -Clases
-
-*Arquitectura MVC
-Aplicación del patrón MVC
-Diagrama de Componentes
-Proceso de Instalación de la Aplicación
-Manual de Usuario
-Código y Pruebas
-Plan de Iteraciones 
