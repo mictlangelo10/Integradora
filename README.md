@@ -29,8 +29,11 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 
 # Objetivos específicos
 • Implementar un software para una buena gestión administrativa.
+
 • Administrar de mejor manera la suscripción de los clientes al gimnasio.
+
 • Administrar inventario de productos operantes en el gimnasio.
+
 • Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
 
 # Lista de requisitos priorizada del proyecto refinada
