@@ -39,7 +39,7 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 # Lista de requisitos priorizada del proyecto refinada
 - Historias de usuario
 
-<img width="746" alt="Historias de Usuario" src="https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG
+![image](https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG)
 
 - Casos de uso
 
