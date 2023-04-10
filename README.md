@@ -43,8 +43,8 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 
 - Casos de uso
 
-![image](https://user-images.githubusercontent.com/123588416/229188250-38e8fe23-1850-4bbc-bdda-e8efd0fc65de.png)
-Ilustración 1. Diagrama de Casos de Uso
+<center>![image](https://user-images.githubusercontent.com/123588416/229188250-38e8fe23-1850-4bbc-bdda-e8efd0fc65de.png)</center>
+<center>Ilustración 1. Diagrama de Casos de Uso</center>
 
 - Diagrama de actividades
 
