@@ -24,6 +24,10 @@ Si un cliente tiene un adeudo pendiente, el sistema genera un código QR que imp
 En resumen, el proyecto es un sistema de gestión y administración de un gimnasio llamado "Sportacus Gym". El módulo de clases permite al Administrador agregar, modificar, eliminar y visualizar las clases disponibles, lo que garantiza un mejor control y organización del sistema. El módulo de inscripciones permite al usuario inscribir a los clientes en las clases existentes utilizando un código QR, que varía según el estado de pago del cliente. Si el cliente tiene un adeudo, se les niega el acceso a las clases y se envía una alerta al personal del sistema, pero si el cliente está al día en sus pagos, se le permite inscribirse y se envía una alerta que indica que el registro se ha realizado correctamente.
 
 
+# Objetivo del proyecto
+
+# Objetivos específicos
+
 # Lista de requisitos priorizada del proyecto refinada
 Historias de usuario
 <img width="746" alt="Historias de Usuario" src="https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG">
