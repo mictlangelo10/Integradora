@@ -23,18 +23,22 @@ public class clienteService {
     @Autowired
     claseRepository claseRepository;
 
+    // Método para para obtener todos los clientes
     public List<Cliente> getAll(){
         return clienteRepository.findAll();
     }
 
+    // Método para obtener clases por nombre
     public List<Cliente> getAllByNombreClase(String nombreClase){
         return clienteRepository.findByNombreClase(nombreClase);
     }
 
+    // Método para obtener un solo cliente
     public Cliente getOne(int id) throws ResourceNotFoundException{
         return clienteRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("not found"));
     }
 
+    // Método para crear y guardar clientes.
     public Cliente save(ClienteDto dto) throws AttributeException, ResourceNotFoundException{
         if(clienteRepository.existsByNombreCliente(dto.getNombreCliente()))
             throw new AttributeException("That product name already exists");
@@ -62,6 +66,7 @@ public class clienteService {
         return clienteRepository.save(cliente);    
     }
 
+    // Método para modificar y actualiza clientes, por medio de su id
     public Cliente update(int id,ClienteDto dto) throws ResourceNotFoundException,AttributeException {
         Cliente cliente = clienteRepository.findById(id).orElseThrow(()->new ResourceNotFoundException("not found"));
         if(clienteRepository.existsByNombreCliente(dto.getNombreCliente()) && clienteRepository.findByNombreCliente(dto.getNombreCliente()).get().getId() != id)
@@ -85,13 +90,14 @@ public class clienteService {
     } 
 
 
+    // Método para eliminar un cliente, por medio de su id
     public Cliente delete(int id) throws ResourceNotFoundException{
         Cliente cliente= clienteRepository.findById(id).orElseThrow(()->new ResourceNotFoundException("not found")); 
         clienteRepository.delete(cliente);
         return cliente;
     }
 
-    //Incrementar el id de uno en uno
+    // Método para incrementar el id de uno en uno
     private int autoIncrement(){
         List<Cliente> cliente= clienteRepository.findAll();
         return cliente.isEmpty()? 1:cliente.stream().max(Comparator.comparing(Cliente::getId)).get().getId()+1;
@@ -99,9 +105,7 @@ public class clienteService {
 }
 
 /* 
-Equipo 1
+Autore del Equipo 1
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
