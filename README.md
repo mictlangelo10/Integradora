@@ -183,4 +183,4 @@ Correo electrónico: miguehdzss29@gmail.com</br>
 Teléfono: 4181446580</br>
 - Cruz Breña Daniela Janeth</br>
 Correo electrónico: daniela122cruz.11@gmail.com</br>
-Teléfono: 4681025325
+Teléfono: 4681025325 
