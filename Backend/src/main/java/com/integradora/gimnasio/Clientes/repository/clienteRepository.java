@@ -7,6 +7,10 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.integradora.gimnasio.Clientes.entity.Cliente;
 
+/* Método que define una interfaz clienteRepository que extiende la clase MongoRepository de Spring Data MongoDB, 
+lo que significa que proporciona métodos para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la colección cliente en una base de datos MongoDB.
+*/
+
 public interface clienteRepository extends MongoRepository<Cliente,Integer>{
     boolean existsByNombreCliente(String nombreCliente);
     boolean existsByEmail(String email);
@@ -17,9 +21,7 @@ public interface clienteRepository extends MongoRepository<Cliente,Integer>{
 }
 
 /* 
-Equipo 1
+Autores del Equipo 1
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
