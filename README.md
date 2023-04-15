@@ -148,12 +148,12 @@ La colección Clase esta diseñada para almacenar los registros de las clases re
 ## Proceso de Instalación de la Aplicación 
 En el siguiente manual de instalación se habla acerca de la manera en la cual se puede instalar la aplicación dentro de un dispositivo para un entorno de desarrollo, haciendo que de esta manera el lector del mismo, una vez finalizado, tenga a su disposición el proyecto para modificarlo en caso de ser conveniente, a continuación se muestra el manual en el que se mencionan requisitos para la instalación y el proceso de la misma.
 
-[Manual de instalación] (https://drive.google.com/file/d/1h4ZyVRgPXkRTytfTcG6S53x4-45oyeKB/view?usp=share_link)
+- [Manual de instalación](https://drive.google.com/file/d/1h4ZyVRgPXkRTytfTcG6S53x4-45oyeKB/view?usp=share_link)
 
 ## Manual de Funcionamiento
 Con el fin de facilitar la comprensión del funcionamiento del proyecto, se proporcionará un manual detallado para su uso. Este documento tiene como objetivo garantizar que el cliente comprenda plenamente el proyecto y sea capaz de utilizarlo de manera efectiva. El manual explicará las funcionalidades del sistema y las características clave, así como los pasos necesarios para su correcto uso. Además, se brindará asistencia y soporte para el cliente en caso de que se presenten dudas o inconvenientes durante el proceso de uso del proyecto.
 
-[Manual de usuario] (https://drive.google.com/file/d/1U7vrPfcj-QFQRvG6XFWvc8Gqzp1gC46Q/view?usp=share_link)
+- [Manual de usuario](https://drive.google.com/file/d/1U7vrPfcj-QFQRvG6XFWvc8Gqzp1gC46Q/view?usp=share_link)
 
 ## Documentación del Código Fuente
 Se anexa la documentación del código desarrollado a lo largo del proyecto, esto con el objetivo de darle los respectivos créditos a los trabajadores del mismo y de comprender el funcionamiento que se tiene en el sistema.
