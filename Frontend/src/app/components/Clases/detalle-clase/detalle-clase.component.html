@@ -1,6 +1,8 @@
+//Titulo de la página
 <h1 style="text-align: center">Class Details</h1>
 <div id="contenido2">
   <div class="container">
+    // Mostrando detalles de la clase
     <div class="general">
       <div class="information">
         <a class="list-group-item"><b>Description</b>
@@ -17,6 +19,7 @@
         <a class="list-group-item"><b>Quota</b>
           <p>{{ listClases.cupo }}</p></a>
       </div>
+      // Mostrando imagen de la clase
       <div class="imagen">
         <div class="titulobello">
           <h1>{{ listClases.nombreClase }}</h1>
@@ -33,6 +36,7 @@
         <br />
         <br />
         <br />
+        // Botones para modal
         <div class="btn">
           <button class="cssbuttons-io ms-5 rounded float-start" id="botonNuevo"
             routerLink="/listaClientes">
@@ -51,7 +55,7 @@
     </div>
   </div>
 </div>
-
+// Modal de clientes
 <div
   class="modal fade"
   id="list"
@@ -77,3 +81,6 @@
     </div>
   </div>
 </div>
+/*
+Elaborado por Filiberto Navarro
+*/
