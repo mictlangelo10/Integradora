@@ -103,14 +103,14 @@ La colección Customer esta dedicada a almacenar los registros de los clientes r
 ##### Colección Class
 La colección Clase esta diseñada para almacenar los registros de las clases registradas en el sistema, cuenta con diferentes atributos que complementan la información de las clases, los cuales son:
 </br>
-• "ClassName"
-• "Photo"
-• "Description"
-• "Price"
-• "Instructor"
-• "Date"
-• "Hour"
-• "Quota"
+• "ClassName": Nombre de la Clase (cadena de caracteres)</br>
+• "Photo": Imagen representativa de la Clase (archivo de imagen)</br>
+• "Description": Descripción de la Clase (cadena de caracteres)</br>
+• "Price": Precio de la Clase (valor numérico)</br>
+• "Instructor": Nombre del Instructor de la clase, extraído del registro de Empleados con rol de Instructor, mostrado en la interfaz como un menu desplegable (cadena de caracteres)</br>
+• "Date": Fecha de la Clase (formato de fecha dd/mm/aa)</br>
+• "Hour": Hora de laClase (formato de hora hh:mm)</br>
+• "Quota": Cupo de la clase (valor numérico)</br>
 
 
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182282-67422409-85c7-4a41-9de8-e9b0e681352f.png"></p>
