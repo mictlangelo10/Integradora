@@ -146,11 +146,13 @@ El modelo representa los datos y la lógica de negocio de la aplicación, mientr
 La separación de estas responsabilidades permite una mayor modularidad y flexibilidad en el desarrollo de la aplicación, lo que facilita la evolución y mantenimiento del software. Además, permite la reutilización de componentes y la realización de pruebas unitarias de manera más sencilla.
 
 - Diagrama General del Modelo Vista Controlador
+
 <p align="center">
   ![image](https://user-images.githubusercontent.com/123588416/232230475-58f8fe22-eeaa-461e-aea2-8c3154d4901b.png)
 </p>  
 
 - Diagrama de MVC del módulo de clases
+
 <p align="center">
 ![image](https://user-images.githubusercontent.com/123588416/232230608-89a9b86a-8f48-4872-a1cc-af6890db6d7c.png)
 </p>
