@@ -140,7 +140,12 @@ A continuación, se presenta un posible estándar de programación para el desar
 5.- Documentación:
 - Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
 
-### Casos de Prueba
+## Código Fuente
+
+- [Front-End](https://github.com/mictlangelo10/Integradora/tree/main/Frontend)
+- [Back-End](https://github.com/mictlangelo10/Integradora/tree/main/Backend)
+
+## Casos de Prueba
 Con el propósito de verificar el desempeño adecuado del componente y garantizar que el artículo entregado al comprador no presente ningún defecto, se llevaron a cabo varios ensayos que se detallan a continuación junto con los resultados correspondientes.
 
 ---link (casos)
