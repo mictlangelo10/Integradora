@@ -136,6 +136,20 @@ La colección Clase esta diseñada para almacenar los registros de las clases re
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182282-67422409-85c7-4a41-9de8-e9b0e681352f.png"></p>
 
 ## Modelo Vista Controlador 
+El modelo vista controlador (MVC) es un patrón de diseño de software utilizado en la construcción de aplicaciones de software para separar la lógica de la aplicación en tres componentes principales: el modelo, la vista y el controlador.
+
+El modelo representa los datos y la lógica de negocio de la aplicación, mientras que la vista se encarga de la presentación de los datos al usuario. El controlador actúa como intermediario entre el modelo y la vista, y se encarga de manejar la entrada del usuario y actualizar el modelo en consecuencia.
+
+La separación de estas responsabilidades permite una mayor modularidad y flexibilidad en el desarrollo de la aplicación, lo que facilita la evolución y mantenimiento del software. Además, permite la reutilización de componentes y la realización de pruebas unitarias de manera más sencilla.
+
+- Diagrama General del Modelo Vista Controlador
+<p align="center">
+  ![image](https://user-images.githubusercontent.com/123588416/232230475-58f8fe22-eeaa-461e-aea2-8c3154d4901b.png)
+</p>  
+
+- Diagrama de componentes del gestor de clases
+![image](https://user-images.githubusercontent.com/123588416/232230608-89a9b86a-8f48-4872-a1cc-af6890db6d7c.png)
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/115411941/232180998-8b1064f1-9b16-4816-beeb-bb77cc5a5ac5.png">
