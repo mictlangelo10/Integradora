@@ -3,9 +3,11 @@ package com.integradora.gimnasio.Clientes.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+// Indicando que la clase Java está mapeada a una colección específica en la base de datos MongoDB. 
 @Document(collection = "cliente")
 public class Cliente {
     
+    // Asignando variables
     @Id
     private int id;
     private String nombreCliente;
@@ -19,7 +21,7 @@ public class Cliente {
     public Cliente() {
     }
 
-
+    // Definiendo parámetros dentro del constructor
     public Cliente(int id, String nombreCliente, String[] nombreClase, int edad, String email, String telefono,
             double subcripcion, double totalPagarAlMes) {
         this.id = id;
@@ -32,6 +34,8 @@ public class Cliente {
         this.totalPagarAlMes = totalPagarAlMes;
     }
 
+    
+    // Definiendo métodos set y get
     public int getId() {
         return id;
     }
@@ -103,9 +107,7 @@ public class Cliente {
 }
 
 /* 
-Equipo 1
+Autores del Equipo 1
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
