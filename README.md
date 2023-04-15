@@ -86,7 +86,25 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 
 ### Modelo de la Base de Datos
 La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
-##Implementación
+
+##### Colección Customer
+
+La colección Customer esta dedicada a almacenar los registros de los clientes registrados en el sistema, cuenta con los siguientes atributos:
+</br>
+• "CustomerName": Nombre del Cliente (cadena de caracteres)</br>
+• "Class": Clase a la que esta inscrito el Cliente, valor que sera seleccionado a traves de un menú precargad con el nombre de las clases existentes (cadena de caracteres)</br>
+• "Age": Edad del cliente (valor numérico)</br>
+• "Email": Dirección de correo del cliente (cadena de caracteres)</br>
+• "Phone": Telefono del cliente (valor numérico)</br>
+• "Suscription": Tipo de suscrioción del cliente (valor numérico)</br>
+
+<p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182273-d95a0da1-e95b-4db1-898d-367ae1774ac8.png"></p>
+##### Colección Class
+
+<p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182282-67422409-85c7-4a41-9de8-e9b0e681352f.png"></p>
+
+
+## Implementación
 ### Estándares de Codificación.
 A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
 1.- Convenciones de nomenclatura:
