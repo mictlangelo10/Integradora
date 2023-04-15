@@ -81,7 +81,7 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 
 ### Modelo de la Base de Datos
 La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
-
+##Implementación
 ### Estándares de Codificación.
 A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
 1.- Convenciones de nomenclatura:
@@ -105,20 +105,36 @@ A continuación, se presenta un posible estándar de programación para el desar
 5.- Documentación:
 - Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
 
-### Código Fuente
 ### Casos de Prueba
+Con el propósito de verificar el desempeño adecuado del componente y garantizar que el artículo entregado al comprador no presente ningún defecto, se llevaron a cabo varios ensayos que se detallan a continuación junto con los resultados correspondientes.
+
+---link (casos)
 ## Guias
 ### Requisitos
+Para poder llevar a cabo la instalación del proyecto en un ambiente de desarrollo y posteriormente utilizarlo, se requiere disponer de los siguientes elementos de hardware y software:
 #### Hardware
+- Procesador de 64 bits con velocidad de reloj de 1 GHz o superior.
+- 4 GB de memoria RAM o superior.
+- Al menos 10 GB de espacio libre en disco duro.
 #### Software
+- Sistema operativo Windows 7 o superior, macOS o Linux.
+- Node.js versión 18.15.0 LTS.
+- Angular CLI versión 14.0.2.
 #### Guia de Instalación
+Existen instrucciones detalladas que explican los pasos necesarios para llevar a cabo la instalación del sistema en un ambiente de desarrollo. Estas indicaciones se encuentran disponibles en un manual que ha sido elaborado específicamente para dicho propósito. En este documento se proporcionan explicaciones paso a paso que permiten realizar la instalación del sistema de manera eficiente y efectiva, asegurándose de que se cumplan todos los requisitos necesarios para su correcto funcionamiento.
+
+
+----link (manual instalación)
 #### Manual de Uso
+Con el fin de facilitar la comprensión del funcionamiento del proyecto, se proporcionará un manual detallado para su uso. Este documento tiene como objetivo garantizar que el cliente comprenda plenamente el proyecto y sea capaz de utilizarlo de manera efectiva. El manual explicará las funcionalidades del sistema y las características clave, así como los pasos necesarios para su correcto uso. Además, se brindará asistencia y soporte para el cliente en caso de que se presenten dudas o inconvenientes durante el proceso de uso del proyecto.
+
+-----link (manual de uso)
 ## Contacto
-Hernández Solís Miguel Ángel
-Correo electronico: miguehdzss29@gmail.com
-Teléfono: 4181446580
-Cruz Breña Daniela Janeth
-Correo electronico: daniela122cruz.11@gmail.com
+- Hernández Solís Miguel Ángel</br>
+Correo electronico: miguehdzss29@gmail.com</br>
+Teléfono: 4181446580</br>
+- Cruz Breña Daniela Janeth</br>
+Correo electronico: daniela122cruz.11@gmail.com</br>
 Teléfono: 4681025325
 
 # Participantes
