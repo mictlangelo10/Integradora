@@ -13,6 +13,8 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./nueva-clase.component.css']
 })
 export class NuevaClaseComponent implements OnInit {
+  
+  // Declarando Variables
   isAdmin: boolean=false;
 
   nombreClase!:String;
@@ -27,11 +29,13 @@ export class NuevaClaseComponent implements OnInit {
   instructores:CreateUser[]=[];
   constructor(private claseService:ClaseService,private empleadoService:AuthService,private toast:ToastrService, private token:TokenService,private router:Router) { }
 
+  // Métodos de entrada
   ngOnInit(): void {
     this.getInstructores();
     this.isAdmin = this.token.isAdmin();
   }
 
+  // Método para consultar instructores
   getInstructores():void{
     this.empleadoService.listByRol("ROLE_INSTRUCTOR").subscribe(
       data=>{
@@ -43,6 +47,7 @@ export class NuevaClaseComponent implements OnInit {
     )
   }
 
+  // Método para crear una nueva clase
   onCreate():void{
     const clase= new Clase(this.nombreClase,this.descripcion,this.costo,this.nombreInstructor,this.fecha,this.hora,this.cupo,this.fotoClase);
     this.claseService.create(clase).subscribe(
@@ -56,3 +61,5 @@ export class NuevaClaseComponent implements OnInit {
     );
    }
 }
+
+// Autor: Miguel Hernández
