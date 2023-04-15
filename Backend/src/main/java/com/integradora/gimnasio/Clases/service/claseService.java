@@ -17,22 +17,24 @@ import com.integradora.gimnasio.exceptions.ResourceNotFoundException;
 @Service
 public class claseService {
     
-
+    // Método para realizar inyecciones de dependencias.
     @Autowired
     claseRepository claseRepository;
 
     @Autowired
     clienteRepository clienteRepository;
     
-
+    // Método que obtiene todas las clases existentes en el sistema
     public List<Clase> getAll(){
         return claseRepository.findAll();
     }
-
+    
+    // Método que obtiene una clase, por medio del id de la misma.
     public Clase getOne(int id) throws ResourceNotFoundException{
         return claseRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("not found"));
     }
 
+    // Método que permite agregar una clase al sistema, también conocido como método post
     public Clase save(ClaseDto dto) throws AttributeException{
         if(claseRepository.existsByNombreClase(dto.getNombreClase()))
             throw new AttributeException("That class name already exists");
@@ -52,6 +54,7 @@ public class claseService {
     }
 
 
+    // Método que actualiza una clase, la ubica por medio del id y de esta madera permite modificar la misma.
     public Clase update(int id,ClaseDto dto) throws ResourceNotFoundException,AttributeException {
         Clase clase = claseRepository.findById(id).orElseThrow(()->new ResourceNotFoundException("not found"));
         if(claseRepository.existsByNombreClase(dto.getNombreClase()) && claseRepository.findByNombreClase(dto.getNombreClase()).get().getId() != id)
@@ -66,7 +69,8 @@ public class claseService {
         clase.setFotoClase(dto.getFotoClase());
         return claseRepository.save(clase);
     } 
-
+    
+    // Método que actualiza el costo de una clase por medio de su id 
     public void updateCosto(int claseId, double nuevoCosto) throws ResourceNotFoundException {
         Clase clase = claseRepository.findById(claseId).orElseThrow(() -> new ResourceNotFoundException("Clase not found"));
         clase.setCosto(nuevoCosto);
@@ -87,13 +91,14 @@ public class claseService {
         }
     }
 
+    // Método que elimina una clase por medio de su id
     public Clase delete(int id) throws ResourceNotFoundException{
         Clase clase= claseRepository.findById(id).orElseThrow(()->new ResourceNotFoundException("not found")); 
         claseRepository.delete(clase);
         return clase;
     }
 
-    //Incrementar el id de uno en uno
+    // Método que incrementa el id de uno en uno
     private int autoIncrement(){
         List<Clase> clases= claseRepository.findAll();
         return clases.isEmpty()? 1:clases.stream().max(Comparator.comparing(Clase::getId)).get().getId()+1;
@@ -102,9 +107,7 @@ public class claseService {
 }
 
 /* 
-Equipo 1
+Autores del Equipo 1:
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
