@@ -24,4 +24,18 @@ Se muestra la documentación del código por parte del Frontend, en el que todos
 - editar-clases.component.html (Elaborado por Daniela Cruz)
 - editar-clases.component.ts (Elaborado por Miguel Hernández)
 
+### Servicios 
+
+### Filtros
+
 ## Modulo de Clientes
+
+### Agregar Cliente
+
+### Ver Clientes
+
+### Editar Clientes
+
+### Servicios 
+
+### Filtros
