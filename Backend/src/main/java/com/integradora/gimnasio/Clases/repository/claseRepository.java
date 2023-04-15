@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.integradora.gimnasio.Clases.entity.Clase;
 
+// Este método permite buscar y verificar la existencia de instancias de la entidad Clase en la base de datos MongoDB utilizando métodos personalizados.
 @Repository
 public interface claseRepository extends MongoRepository<Clase,Integer>{
     boolean existsByNombreClase(String nombreClase);
