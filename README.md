@@ -1,7 +1,13 @@
 # Integradora II: SGSG (Sistema de Gestión de Sportacus Gym)
 Repositoro dedicado para integrar la documentación, los procesos y el código sobre la elaboración del proyecto Sportacus Gym, solicitado por la empresa iTTiVA
 
-## Acerca del Proyecto
+## Integrantes del Equipo
+- Cruz Breña Daniela Janeth 	(1221100295).
+- Hernández Solís Miguel Ángel  (1220100587).
+- Jaime García Miguel Ángel  (1220100319).
+- Navarro Grifaldo Filiberto  (1221100296).  
+
+## Generalidades del Proyecto
 ### Descripción 
 
 El proyecto consiste en el desarrollo de un sistema para la gestión y administración de un gimnasio llamado "Sportacus Gym". El sistema cuenta con diferentes servicios y consultorías que deben ser cubiertos, y el módulo de clases es una parte importante del sistema que permite al Administrador agregar, modificar, eliminar y visualizar las clases disponibles. Además, el módulo de clases también permite al Administrador gestionar fácilmente las características de las clases, como el nombre, la descripción, el nivel de dificultad y la duración.
@@ -14,29 +20,30 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 En resumen, el proyecto es un sistema de gestión y administración de un gimnasio llamado "Sportacus Gym". El módulo de clases permite al Administrador agregar, modificar, eliminar y visualizar las clases disponibles, lo que garantiza un mejor control y organización del sistema. El módulo de inscripciones permite al usuario inscribir a los clientes en las clases existentes utilizando un código QR, que varía según el estado de pago del cliente. Si el cliente tiene un adeudo, se les niega el acceso a las clases y se envía una alerta al personal del sistema, pero si el cliente está al día en sus pagos, se le permite inscribirse y se envía una alerta que indica que el registro se ha realizado correctamente.
 
 
-### Objetivo general
+### Objetivo General
 Llevar un mejor control administrativo en base a los clientes y empleados, productos y proveedores, así como las máquinas operantes y el manejo de todo aquello necesario para el óptimo funcionamiento del gimnasio llamado Sportacus (capital, chekin de empleados, inventario de productos).
 
-### Objetivos específicos
+### Objetivos Específicos
 - Implementar un software para una buena gestión administrativa.
 - Administrar de mejor manera la suscripción de los clientes al gimnasio.
 - Administrar inventario de productos operantes en el gimnasio.
 - Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
 
+### Estandares de Codificación
+
 ## Análisis y Diseño de Solución
-### Lista de requisitos priorizada del proyecto refinada
-#### Historias de usuario
+### Historias de Usuario
 
 ![image](https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG)
 
-#### Diagrama de Casos de uso
+### Diagrama de Casos de Uso
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/115411941/232179630-0ef31f43-a035-49b2-88cb-7093fa5b0c51.png">
 </p>
 
 
-#### Diagrama de actividades
+### Diagramas de Actividades
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/123588416/229188338-e4f07879-9c93-4ede-b5b5-2bb7773ee94e.png">
@@ -67,22 +74,13 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 </br>Buscar Clase
 </p>
 
-#### Diagrama de Interfaces
+### Diagrama de Interfaces
 
 ![image](https://user-images.githubusercontent.com/123588416/229189114-a24203a5-2010-4442-936e-73d4e4ad6ea0.png)
 
-#### Diagrama de Base de Datos
+### Diagrama de Colecciones para la Base de Datos
 
 ![image](https://user-images.githubusercontent.com/123588416/229189155-895dc007-4b78-41c2-b816-2b84b920ba99.png)
-
-#### Diagrama de Componentes
-![Componentes](https://user-images.githubusercontent.com/115411941/232181428-5dafc65a-3f2f-4e7f-9afe-6e9d1df044ec.png)
-
-#### Modelo Vista Controlador
-<p align="center">
-<img src="https://user-images.githubusercontent.com/115411941/232180998-8b1064f1-9b16-4816-beeb-bb77cc5a5ac5.png">
-<img src="https://user-images.githubusercontent.com/115411941/232181009-b1aab15f-71a2-454c-8670-e00fe1dc0a43.png">
-</p>
 
 ### Modelo de la Base de Datos
 La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
@@ -115,8 +113,27 @@ La colección Clase esta diseñada para almacenar los registros de las clases re
 
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182282-67422409-85c7-4a41-9de8-e9b0e681352f.png"></p>
 
+## Modelo Vista Controlador 
 
-## Implementación
+<p align="center">
+<img src="https://user-images.githubusercontent.com/115411941/232180998-8b1064f1-9b16-4816-beeb-bb77cc5a5ac5.png">
+<img src="https://user-images.githubusercontent.com/115411941/232181009-b1aab15f-71a2-454c-8670-e00fe1dc0a43.png">
+</p>
+
+### Diagrama de Componentes
+![Componentes](https://user-images.githubusercontent.com/115411941/232181428-5dafc65a-3f2f-4e7f-9afe-6e9d1df044ec.png)
+
+## Proceso de Instalación de la Aplicación 
+En el siguiente manual de instalación se habla acerca de la manera en la cual se puede instalar la aplicación dentro de un dispositivo para un entorno de desarrollo, haciendo que de esta manera el lector del mismo, una vez finalizado, tenga a su disposición el proyecto para modificarlo en caso de ser conveniente, a continuación se muestra el manual en el que se mencionan requisitos para la instalación y el proceso de la misma.
+
+[Manual de instalación] (https://drive.google.com/file/d/1h4ZyVRgPXkRTytfTcG6S53x4-45oyeKB/view?usp=share_link)
+
+## Manual de Funcionamiento
+Con el fin de facilitar la comprensión del funcionamiento del proyecto, se proporcionará un manual detallado para su uso. Este documento tiene como objetivo garantizar que el cliente comprenda plenamente el proyecto y sea capaz de utilizarlo de manera efectiva. El manual explicará las funcionalidades del sistema y las características clave, así como los pasos necesarios para su correcto uso. Además, se brindará asistencia y soporte para el cliente en caso de que se presenten dudas o inconvenientes durante el proceso de uso del proyecto.
+
+[Manual de usuario] (https://drive.google.com/file/d/1U7vrPfcj-QFQRvG6XFWvc8Gqzp1gC46Q/view?usp=share_link)
+
+
 ### Estándares de Codificación.
 A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
 1.- Convenciones de nomenclatura:
@@ -140,7 +157,8 @@ A continuación, se presenta un posible estándar de programación para el desar
 5.- Documentación:
 - Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
 
-## Código Fuente
+## Documentación del Código Fuente
+Se anexa la documentación del código desarrollado a lo largo del proyecto, esto con el objetivo de darle los respectivos créditos a los trabajadores del mismo y de comprender el funcionamiento que se tiene en el sistema.
 
 - [Front-End](https://github.com/mictlangelo10/Integradora/tree/main/Frontend)
 - [Back-End](https://github.com/mictlangelo10/Integradora/tree/main/Backend)
@@ -148,27 +166,8 @@ A continuación, se presenta un posible estándar de programación para el desar
 ## Casos de Prueba
 Con el propósito de verificar el desempeño adecuado del componente y garantizar que el artículo entregado al comprador no presente ningún defecto, se llevaron a cabo varios ensayos que se detallan a continuación junto con los resultados correspondientes.
 
----link (casos)
-## Guias
-### Requisitos
-Para poder llevar a cabo la instalación del proyecto en un ambiente de desarrollo y posteriormente utilizarlo, se requiere disponer de los siguientes elementos de hardware y software:
-#### Hardware
-- Procesador de 64 bits con velocidad de reloj de 1 GHz o superior.
-- 4 GB de memoria RAM o superior.
-- Al menos 10 GB de espacio libre en disco duro.
-#### Software
-- Sistema operativo Windows 7 o superior, macOS o Linux.
-- Node.js versión 18.15.0 LTS.
-- Angular CLI versión 14.0.2.
-### Guia de Instalación
-Existen instrucciones detalladas que explican los pasos necesarios para llevar a cabo la instalación del sistema en un ambiente de desarrollo. Estas indicaciones se encuentran disponibles en un manual que ha sido elaborado específicamente para dicho propósito. En este documento se proporcionan explicaciones paso a paso que permiten realizar la instalación del sistema de manera eficiente y efectiva, asegurándose de que se cumplan todos los requisitos necesarios para su correcto funcionamiento.
+[Casos de prueba](https://docs.google.com/spreadsheets/d/1HHsbVE49IEYQMTA9IPGYHlhNp8qOx0ug/edit?usp=share_link&ouid=103096531010844924896&rtpof=true&sd=true)
 
-
-----link (manual instalación)
-### Manual de Uso
-Con el fin de facilitar la comprensión del funcionamiento del proyecto, se proporcionará un manual detallado para su uso. Este documento tiene como objetivo garantizar que el cliente comprenda plenamente el proyecto y sea capaz de utilizarlo de manera efectiva. El manual explicará las funcionalidades del sistema y las características clave, así como los pasos necesarios para su correcto uso. Además, se brindará asistencia y soporte para el cliente en caso de que se presenten dudas o inconvenientes durante el proceso de uso del proyecto.
-
------link (manual de uso)
 ## Contacto
 - Hernández Solís Miguel Ángel</br>
 Correo electrónico: miguehdzss29@gmail.com</br>
@@ -176,9 +175,3 @@ Teléfono: 4181446580</br>
 - Cruz Breña Daniela Janeth</br>
 Correo electrónico: daniela122cruz.11@gmail.com</br>
 Teléfono: 4681025325
-
-# Participantes
-- Cruz Breña Daniela Janeth 	(1221100295).
-- Hernández Solís Miguel Ángel  (1220100587).
-- Jaime García Miguel Ángel  (1220100319).
-- Navarro Grifaldo Filiberto  (1221100296).  
