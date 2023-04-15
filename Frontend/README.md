@@ -1,27 +1,27 @@
 # Documentación del Frontend
+Se muestra la documentación del código por parte del Frontend, en el que todos los participantes colaboraron arduamente para el correcto funcionamiento del mismo, a continuación se muestra los los archivos trabajados en orden de lista, así como lo que elaboró cada miembro del equipo.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-## Development server
+## Modulo de Clases
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Agregar Clase
+- nueva-clase.component.css (Elaborado por Miguel García)
+- nueva-clase.component.html (Elaborado por Daniela Cruz y Filiberto Navarro)
+- nueva-clase.component.ts (Elaborado por Miguel Hernández)
 
-## Code scaffolding
+### Ver Clases
+- ver-clases.component.css (Elaborado por Miguel García)
+- ver-clases.component.html (Elaborado por Miguel Hernández)
+- ver-clases.component.ts (Elaborado por Miguel Hernández)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Ver Detalles
+- detalle-clase.component.css (Elaborado por Miguel García)
+- detalle-clase.component.html (Elaborado por Filiberto Navarro)
+- detalle-clase.component.ts (Elaborado por Miguel Hernández)
 
-## Build
+### Editar Clases
+- editar-clases.component.css (Elaborado por Miguel García)
+- editar-clases.component.html (Elaborado por Daniela Cruz)
+- editar-clases.component.ts (Elaborado por Miguel Hernández)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Modulo de Clientes
