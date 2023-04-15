@@ -100,14 +100,14 @@ A continuación, se muestran unos posibles estandares del proyecto
 
 ### Diagrama de Interfaces
 
-![image](https://user-images.githubusercontent.com/123588416/229189114-a24203a5-2010-4442-936e-73d4e4ad6ea0.png)
+![interfaces](https://user-images.githubusercontent.com/115411941/232234827-7e5a14db-8d31-48f6-b4a5-722036807b6c.png)
 
 ### Diagrama de Colecciones para la Base de Datos
 
-![image](https://user-images.githubusercontent.com/123588416/229189155-895dc007-4b78-41c2-b816-2b84b920ba99.png)
+![CLASES](https://user-images.githubusercontent.com/115411941/232234777-94fc0817-68f9-45fb-a05a-2c0b31131340.png)
 
 ### Modelo de la Base de Datos
-La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
+La base de datos a utilizar será no relacional, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
 
 #### Colección Customer
 
