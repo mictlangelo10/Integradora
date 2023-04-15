@@ -30,6 +30,27 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 - Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
 
 ### Estandares de Codificación
+A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
+1.- Convenciones de nomenclatura:
+- Utilizar camelCase para los nombres de variables, funciones y métodos.
+- Utilizar PascalCase para los nombres de clases y componentes.
+- Utilizar guiones bajos para los nombres de las rutas de la API y las colecciones de la base de datos.
+- Utilizar nombres descriptivos y significativos para las variables, funciones y métodos.
+2.- Estructura de la aplicación:
+- Utilizar una estructura de archivos modular y escalable que separe las diferentes capas de la aplicación (presentación, lógica de negocio, acceso a datos).
+- Utilizar un enfoque basado en componentes para la estructura de la aplicación Angular.
+- Utilizar la arquitectura de microservicios para separar diferentes componentes y servicios de la aplicación.
+3.- Codificación:
+- Utilizar TypeScript como lenguaje de programación para mejorar la legibilidad y la seguridad del código.
+- Utilizar patrones de diseño y principios de SOLID para escribir código escalable y mantenible.
+- Utilizar pruebas unitarias y de integración para garantizar la calidad y la robustez del código.
+- Utilizar herramientas de linting y formateo de código para garantizar la coherencia y la legibilidad del código.
+4.- Rendimiento:
+- Utilizar prácticas de optimización de rendimiento para garantizar una experiencia de usuario fluida y rápida.
+- Utilizar técnicas de caching y almacenamiento en caché para reducir la carga en el servidor y mejorar el rendimiento de la aplicación.
+- Optimizar la carga y la descarga de recursos y datos para reducir el tiempo de respuesta de la aplicación.
+5.- Documentación:
+- Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
 
 ## Análisis y Diseño de Solución
 ### Historias de Usuario
@@ -85,7 +106,7 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 ### Modelo de la Base de Datos
 La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
 
-##### Colección Customer
+- Colección Customer
 
 La colección Customer esta dedicada a almacenar los registros de los clientes registrados en el sistema, cuenta con los siguientes atributos:
 </br>
@@ -98,7 +119,7 @@ La colección Customer esta dedicada a almacenar los registros de los clientes r
 
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182273-d95a0da1-e95b-4db1-898d-367ae1774ac8.png"></p>
 
-##### Colección Class
+- Colección Class
 La colección Clase esta diseñada para almacenar los registros de las clases registradas en el sistema, cuenta con diferentes atributos que complementan la información de las clases, los cuales son:
 </br>
 • "ClassName": Nombre de la Clase (cadena de caracteres)</br>
@@ -132,30 +153,6 @@ En el siguiente manual de instalación se habla acerca de la manera en la cual s
 Con el fin de facilitar la comprensión del funcionamiento del proyecto, se proporcionará un manual detallado para su uso. Este documento tiene como objetivo garantizar que el cliente comprenda plenamente el proyecto y sea capaz de utilizarlo de manera efectiva. El manual explicará las funcionalidades del sistema y las características clave, así como los pasos necesarios para su correcto uso. Además, se brindará asistencia y soporte para el cliente en caso de que se presenten dudas o inconvenientes durante el proceso de uso del proyecto.
 
 [Manual de usuario] (https://drive.google.com/file/d/1U7vrPfcj-QFQRvG6XFWvc8Gqzp1gC46Q/view?usp=share_link)
-
-
-### Estándares de Codificación.
-A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
-1.- Convenciones de nomenclatura:
-- Utilizar camelCase para los nombres de variables, funciones y métodos.
-- Utilizar PascalCase para los nombres de clases y componentes.
-- Utilizar guiones bajos para los nombres de las rutas de la API y las colecciones de la base de datos.
-- Utilizar nombres descriptivos y significativos para las variables, funciones y métodos.
-2.- Estructura de la aplicación:
-- Utilizar una estructura de archivos modular y escalable que separe las diferentes capas de la aplicación (presentación, lógica de negocio, acceso a datos).
-- Utilizar un enfoque basado en componentes para la estructura de la aplicación Angular.
-- Utilizar la arquitectura de microservicios para separar diferentes componentes y servicios de la aplicación.
-3.- Codificación:
-- Utilizar TypeScript como lenguaje de programación para mejorar la legibilidad y la seguridad del código.
-- Utilizar patrones de diseño y principios de SOLID para escribir código escalable y mantenible.
-- Utilizar pruebas unitarias y de integración para garantizar la calidad y la robustez del código.
-- Utilizar herramientas de linting y formateo de código para garantizar la coherencia y la legibilidad del código.
-4.- Rendimiento:
-- Utilizar prácticas de optimización de rendimiento para garantizar una experiencia de usuario fluida y rápida.
-- Utilizar técnicas de caching y almacenamiento en caché para reducir la carga en el servidor y mejorar el rendimiento de la aplicación.
-- Optimizar la carga y la descarga de recursos y datos para reducir el tiempo de respuesta de la aplicación.
-5.- Documentación:
-- Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
 
 ## Documentación del Código Fuente
 Se anexa la documentación del código desarrollado a lo largo del proyecto, esto con el objetivo de darle los respectivos créditos a los trabajadores del mismo y de comprender el funcionamiento que se tiene en el sistema.
