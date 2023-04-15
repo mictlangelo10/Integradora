@@ -1,5 +1,5 @@
 # Integradora II: SGSG (Sistema de Gestión de Sportacus Gym)
-Repositoro dedicado para inetegrar la documentación, procesos y código sobre la elaboración del proyecto Sportacus Gym, solicitado por la empresa iTTiVA
+Repositoro dedicado para integrar la documentación, los procesos y el código sobre la elaboración del proyecto Sportacus Gym, solicitado por la empresa iTTiVA
 
 ## Acerca del Proyecto
 ### Descripción 
