@@ -5,5 +5,14 @@
 - Daniela Janeth Cruz Breña
 
 ## Módulo de Clases 
+En el modulo de clientes se crearon 5 archivos que contienen código indispensable para el correcto funcionamiento del proyecto, en estos trabajaron para la codificación y apoyo de código los integrantes ya mencionados, lo documentado y elaborado fue lo siguiente
+
+- controller
+- dto
+- entity 
+- repository
+- service
+
+A continuación se adjunta el link directo para observar esta documentación.
 
 ## Módulo de Clientes
