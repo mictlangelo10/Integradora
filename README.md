@@ -18,10 +18,10 @@ En resumen, el proyecto es un sistema de gestión y administración de un gimnas
 Llevar un mejor control administrativo en base a los clientes y empleados, productos y proveedores, así como las máquinas operantes y el manejo de todo aquello necesario para el óptimo funcionamiento del gimnasio llamado Sportacus (capital, chekin de empleados, inventario de productos).
 
 ### Objetivos específicos
-• Implementar un software para una buena gestión administrativa.
-• Administrar de mejor manera la suscripción de los clientes al gimnasio.
-• Administrar inventario de productos operantes en el gimnasio.
-• Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
+- Implementar un software para una buena gestión administrativa.
+- Administrar de mejor manera la suscripción de los clientes al gimnasio.
+- Administrar inventario de productos operantes en el gimnasio.
+- Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
 
 ## Análisis y Diseño de Solución
 ### Lista de requisitos priorizada del proyecto refinada
