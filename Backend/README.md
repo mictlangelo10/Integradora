@@ -14,5 +14,6 @@ En el modulo de clientes se crearon 5 archivos que contienen código indispensab
 - service
 
 A continuación se adjunta el link directo para observar esta documentación.
+- [Documentación](https://github.com/mictlangelo10/Integradora/tree/main/Backend/src/main/java/com/integradora/gimnasio/Clases)
 
 ## Módulo de Clientes
