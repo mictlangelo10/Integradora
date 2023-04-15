@@ -35,14 +35,14 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 
 ![image](https://user-images.githubusercontent.com/123588416/229188068-267446b9-6d48-42de-8e61-74f339d520ba.PNG)
 
-- Casos de uso
+#### Diagrama de Casos de uso
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/115411941/232179630-0ef31f43-a035-49b2-88cb-7093fa5b0c51.png">
 </p>
 
 
-- Diagrama de actividades
+#### Diagrama de actividades
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/123588416/229188338-e4f07879-9c93-4ede-b5b5-2bb7773ee94e.png">
@@ -73,11 +73,51 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 </br>Buscar Clase
 </p>
 
-# Modelo de Base de Datos
-- Diagrama de Interfaces
+#### Diagrama de Interfaces
 
 ![image](https://user-images.githubusercontent.com/123588416/229189114-a24203a5-2010-4442-936e-73d4e4ad6ea0.png)
 
-- Modelo de Base de Datos
+#### Diagrama de Base de Datos
 
 ![image](https://user-images.githubusercontent.com/123588416/229189155-895dc007-4b78-41c2-b816-2b84b920ba99.png)
+
+#### Diagrama de Componentes
+
+#### Modelo Vista Controlador
+
+### Modelo de la Base de Datos
+La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
+
+### Estándares de Codificación.
+A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
+1.- Convenciones de nomenclatura:
+- Utilizar camelCase para los nombres de variables, funciones y métodos.
+- Utilizar PascalCase para los nombres de clases y componentes.
+- Utilizar guiones bajos para los nombres de las rutas de la API y las colecciones de la base de datos.
+- Utilizar nombres descriptivos y significativos para las variables, funciones y métodos.
+2.- Estructura de la aplicación:
+- Utilizar una estructura de archivos modular y escalable que separe las diferentes capas de la aplicación (presentación, lógica de negocio, acceso a datos).
+- Utilizar un enfoque basado en componentes para la estructura de la aplicación Angular.
+- Utilizar la arquitectura de microservicios para separar diferentes componentes y servicios de la aplicación.
+3.- Codificación:
+- Utilizar TypeScript como lenguaje de programación para mejorar la legibilidad y la seguridad del código.
+- Utilizar patrones de diseño y principios de SOLID para escribir código escalable y mantenible.
+- Utilizar pruebas unitarias y de integración para garantizar la calidad y la robustez del código.
+- Utilizar herramientas de linting y formateo de código para garantizar la coherencia y la legibilidad del código.
+4.- Rendimiento:
+- Utilizar prácticas de optimización de rendimiento para garantizar una experiencia de usuario fluida y rápida.
+- Utilizar técnicas de caching y almacenamiento en caché para reducir la carga en el servidor y mejorar el rendimiento de la aplicación.
+- Optimizar la carga y la descarga de recursos y datos para reducir el tiempo de respuesta de la aplicación.
+5.- Documentación:
+- Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
+
+### Código Fuente
+### Casos de Prueba
+### Guias
+#### Requisitos
+##### Hardware
+##### Software
+#### Guia de Instalación
+#### Manual de Uso
+### Contacto
+Correo 
