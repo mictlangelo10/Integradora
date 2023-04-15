@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotNull;
 
 public class ClienteDto {
 
-    
+    // Definiendo variables
     @NotBlank(message = "Required customer name")
     private String nombreCliente;
     private String[] nombreClase;
@@ -24,6 +24,7 @@ public class ClienteDto {
     public ClienteDto() {
     }
 
+    // Asignando propiedades a la instancia de la clase ClienteDto
     public ClienteDto(String nombreCliente, String[] nombreClase, int edad, String email, String telefono, double subcripcion, double totalPagarAlMes) {
         this.nombreCliente = nombreCliente;
         this.nombreClase = nombreClase;
@@ -36,6 +37,7 @@ public class ClienteDto {
 
 
 
+    // Agregando métodos set y get
     public String getNombreCliente() {
         return nombreCliente;
     }
@@ -96,9 +98,7 @@ public class ClienteDto {
 }
 
 /* 
-Equipo 1
+Autores del Equipo 1
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
