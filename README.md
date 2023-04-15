@@ -19,7 +19,6 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 
 En resumen, el proyecto es un sistema de gestión y administración de un gimnasio llamado "Sportacus Gym". El módulo de clases permite al Administrador agregar, modificar, eliminar y visualizar las clases disponibles, lo que garantiza un mejor control y organización del sistema. El módulo de inscripciones permite al usuario inscribir a los clientes en las clases existentes utilizando un código QR, que varía según el estado de pago del cliente. Si el cliente tiene un adeudo, se les niega el acceso a las clases y se envía una alerta al personal del sistema, pero si el cliente está al día en sus pagos, se le permite inscribirse y se envía una alerta que indica que el registro se ha realizado correctamente.
 
-
 ### Objetivo General
 Llevar un mejor control administrativo en base a los clientes y empleados, productos y proveedores, así como las máquinas operantes y el manejo de todo aquello necesario para el óptimo funcionamiento del gimnasio llamado Sportacus (capital, chekin de empleados, inventario de productos).
 
@@ -30,27 +29,31 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 - Tener administrado de mejor manera los ingresos y egresos monetarios del gimnasio.
 
 ### Estandares de Codificación
-A continuación, se presenta un posible estándar de programación para el desarrollo de aplicaciones web utilizando el stack MEAN (MongoDB, Express.js, Angular y Node.js):
-1.- Convenciones de nomenclatura:
+Los estándares de codificación son un conjunto de directrices y buenas prácticas que se utilizan para escribir código limpio y legible en un proyecto de software. Estas normas establecen reglas sobre la estructura del código, la nomenclatura de variables, la indentación, la longitud de las líneas, la documentación, el manejo de errores y otras prácticas de programación.
+
+A continuación, se muestran unos posibles estandares del proyecto
+
+#### En el Código
 - Utilizar camelCase para los nombres de variables, funciones y métodos.
 - Utilizar PascalCase para los nombres de clases y componentes.
-- Utilizar guiones bajos para los nombres de las rutas de la API y las colecciones de la base de datos.
 - Utilizar nombres descriptivos y significativos para las variables, funciones y métodos.
-2.- Estructura de la aplicación:
-- Utilizar una estructura de archivos modular y escalable que separe las diferentes capas de la aplicación (presentación, lógica de negocio, acceso a datos).
-- Utilizar un enfoque basado en componentes para la estructura de la aplicación Angular.
-- Utilizar la arquitectura de microservicios para separar diferentes componentes y servicios de la aplicación.
-3.- Codificación:
-- Utilizar TypeScript como lenguaje de programación para mejorar la legibilidad y la seguridad del código.
-- Utilizar patrones de diseño y principios de SOLID para escribir código escalable y mantenible.
-- Utilizar pruebas unitarias y de integración para garantizar la calidad y la robustez del código.
-- Utilizar herramientas de linting y formateo de código para garantizar la coherencia y la legibilidad del código.
-4.- Rendimiento:
-- Utilizar prácticas de optimización de rendimiento para garantizar una experiencia de usuario fluida y rápida.
-- Utilizar técnicas de caching y almacenamiento en caché para reducir la carga en el servidor y mejorar el rendimiento de la aplicación.
-- Optimizar la carga y la descarga de recursos y datos para reducir el tiempo de respuesta de la aplicación.
-5.- Documentación:
-- Documentar el código de manera clara y concisa para facilitar el mantenimiento y la comprensión del código.
+- Documentar autores del código
+- Documentar funciones, métodos y variables
+
+#### En Software
+- Usar Angular CLI en su versión 14.0.2 
+- Usar Spring Boot en su versión 4.18.0
+- Usar Git en su versión 2.40.0
+- Usar Visual Studio en su versión 1.60.2
+- Usar TypeScript en su versión 4.4.4
+- Usar JDK en su versión 7.0.0 
+
+### Sitios de Apoyo para Documentos y Archivos
+- Trello
+- Github
+
+### Trello del Equipo
+- [Equipo1](https://trello.com/b/WCiXKg3x/actividades)
 
 ## Análisis y Diseño de Solución
 ### Historias de Usuario
