@@ -76,8 +76,13 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 ![image](https://user-images.githubusercontent.com/123588416/229189155-895dc007-4b78-41c2-b816-2b84b920ba99.png)
 
 #### Diagrama de Componentes
+![Componentes](https://user-images.githubusercontent.com/115411941/232181428-5dafc65a-3f2f-4e7f-9afe-6e9d1df044ec.png)
 
 #### Modelo Vista Controlador
+<p align="center">
+<img src="https://user-images.githubusercontent.com/115411941/232180998-8b1064f1-9b16-4816-beeb-bb77cc5a5ac5.png">
+<img src="https://user-images.githubusercontent.com/115411941/232181009-b1aab15f-71a2-454c-8670-e00fe1dc0a43.png">
+</p>
 
 ### Modelo de la Base de Datos
 La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
@@ -120,12 +125,12 @@ Para poder llevar a cabo la instalación del proyecto en un ambiente de desarrol
 - Sistema operativo Windows 7 o superior, macOS o Linux.
 - Node.js versión 18.15.0 LTS.
 - Angular CLI versión 14.0.2.
-#### Guia de Instalación
+### Guia de Instalación
 Existen instrucciones detalladas que explican los pasos necesarios para llevar a cabo la instalación del sistema en un ambiente de desarrollo. Estas indicaciones se encuentran disponibles en un manual que ha sido elaborado específicamente para dicho propósito. En este documento se proporcionan explicaciones paso a paso que permiten realizar la instalación del sistema de manera eficiente y efectiva, asegurándose de que se cumplan todos los requisitos necesarios para su correcto funcionamiento.
 
 
 ----link (manual instalación)
-#### Manual de Uso
+### Manual de Uso
 Con el fin de facilitar la comprensión del funcionamiento del proyecto, se proporcionará un manual detallado para su uso. Este documento tiene como objetivo garantizar que el cliente comprenda plenamente el proyecto y sea capaz de utilizarlo de manera efectiva. El manual explicará las funcionalidades del sistema y las características clave, así como los pasos necesarios para su correcto uso. Además, se brindará asistencia y soporte para el cliente en caso de que se presenten dudas o inconvenientes durante el proceso de uso del proyecto.
 
 -----link (manual de uso)
