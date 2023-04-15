@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 public class ClaseDto {
-    
+    // Declarando variables
     @NotBlank(message = "Required class name")
     private String nombreClase;
     @NotBlank(message = "Required description")
@@ -26,7 +26,8 @@ public class ClaseDto {
     public ClaseDto() {
     }
 
-
+    // Inicializando las variables miembro de la clase ClaseDto con los valores pasados como parámetros.
+    
     public ClaseDto( String nombreClase,String descripcion, double costo, String nombreInstructor, String fecha, String hora, int cupo,String fotoClase) {
         this.nombreClase = nombreClase;
         this.descripcion = descripcion;
@@ -38,7 +39,8 @@ public class ClaseDto {
         this.fotoClase = fotoClase;
     }
 
-
+    // Asignando Métodos Set y Get a los métodos
+    
     public String getNombreClase() {
         return nombreClase;
     }
@@ -119,6 +121,4 @@ public class ClaseDto {
 Equipo 1
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
