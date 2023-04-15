@@ -147,16 +147,12 @@ La separación de estas responsabilidades permite una mayor modularidad y flexib
 
 - Diagrama General del Modelo Vista Controlador
 
-<p align="center">
-  ![image](https://user-images.githubusercontent.com/123588416/232230475-58f8fe22-eeaa-461e-aea2-8c3154d4901b.png)
-</p>  
+![image](https://user-images.githubusercontent.com/123588416/232230475-58f8fe22-eeaa-461e-aea2-8c3154d4901b.png)
+
 
 - Diagrama de MVC del módulo de clases
-
-<p align="center">
+- 
 ![image](https://user-images.githubusercontent.com/123588416/232230608-89a9b86a-8f48-4872-a1cc-af6890db6d7c.png)
-</p>
-
 
 ### Diagrama de Componentes
 ![Componentes](https://user-images.githubusercontent.com/115411941/232181428-5dafc65a-3f2f-4e7f-9afe-6e9d1df044ec.png)
