@@ -11,6 +11,7 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./detalle-clase.component.css'],
 })
 export class DetalleClaseComponent implements OnInit {
+  // Declarando Variables
   listClases: any;
   constructor(
     private claseService: ClaseService,
@@ -23,7 +24,7 @@ export class DetalleClaseComponent implements OnInit {
   ) {
     document.body.style.height = '100vh';
   }
-
+  //Asignando método de visualización
   ngOnInit(): void {
     this.route.params.subscribe((params: any) => {
       console.log(params);
@@ -31,6 +32,7 @@ export class DetalleClaseComponent implements OnInit {
     });
   }
 
+  // Método para obtener clases por id
   obtenerClases(id: any) {
     this.claseService.detail(id).subscribe(
       (data) => {
@@ -43,3 +45,5 @@ export class DetalleClaseComponent implements OnInit {
     );
   }
 }
+
+// Autor del código: Miguel Hernández 
