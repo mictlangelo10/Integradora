@@ -99,7 +99,19 @@ La colección Customer esta dedicada a almacenar los registros de los clientes r
 • "Suscription": Tipo de suscrioción del cliente (valor numérico)</br>
 
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182273-d95a0da1-e95b-4db1-898d-367ae1774ac8.png"></p>
+
 ##### Colección Class
+La colección Clase esta diseñada para almacenar los registros de las clases registradas en el sistema, cuenta con diferentes atributos que complementan la información de las clases, los cuales son:
+</br>
+• "ClassName"
+• "Photo"
+• "Description"
+• "Price"
+• "Instructor"
+• "Date"
+• "Hour"
+• "Quota"
+
 
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182282-67422409-85c7-4a41-9de8-e9b0e681352f.png"></p>
 
@@ -154,14 +166,14 @@ Con el fin de facilitar la comprensión del funcionamiento del proyecto, se prop
 -----link (manual de uso)
 ## Contacto
 - Hernández Solís Miguel Ángel</br>
-Correo electronico: miguehdzss29@gmail.com</br>
+Correo electrónico: miguehdzss29@gmail.com</br>
 Teléfono: 4181446580</br>
 - Cruz Breña Daniela Janeth</br>
-Correo electronico: daniela122cruz.11@gmail.com</br>
+Correo electrónico: daniela122cruz.11@gmail.com</br>
 Teléfono: 4681025325
 
 # Participantes
-- Daniela Janeth Cruz Breña	(1221100295).
-- Miguel Ángel Hernández Solís (1220100587).
-- Miguel Ángel Jaime García (1220100319).
-- Filiberto Navarro Grifaldo (1221100296).  
+- Cruz Breña Daniela Janeth 	(1221100295).
+- Hernández Solís Miguel Ángel  (1220100587).
+- Jaime García Miguel Ángel  (1220100319).
+- Navarro Grifaldo Filiberto  (1221100296).  
