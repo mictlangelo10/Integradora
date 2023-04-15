@@ -15,9 +15,7 @@ public interface claseRepository extends MongoRepository<Clase,Integer>{
 }
 
 /* 
-Equipo 1
+Autores del Equipo 1:
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
