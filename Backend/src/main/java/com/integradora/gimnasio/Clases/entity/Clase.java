@@ -3,9 +3,11 @@ package com.integradora.gimnasio.Clases.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+// Método para indicar que una clase es una entidad que se almacena en una colección específica de MongoDB llamada "clases".
 @Document(collection = "clases")
 public class Clase {
     
+    //Asignando variables, definiendo una entidad en la clase.
     @Id
     private int id;
     private String nombreClase;
@@ -20,6 +22,8 @@ public class Clase {
     public Clase() {
     }
 
+    // Este método es un constructor que se utiliza para inicializar las propiedades de la entidad Clase cuando se crea una nueva instancia de la clase.
+    
     public Clase(int id, String nombreClase, String descripcion, double costo, String nombreInstructor, String fecha, String hora,
             int cupo, String fotoClase) {
         this.id = id;
@@ -33,6 +37,8 @@ public class Clase {
         this.fotoClase = fotoClase;
     }
 
+    
+    //Definiendo métodos set y get
     public int getId() {
         return id;
     }
@@ -107,9 +113,7 @@ public class Clase {
 
 }
 /* 
-Equipo 1
+Autores del Equipo 1:
 Daniela Janeth Cruz Breña 
 Miguel Ángel Hernández Solís 
-Miguel Ángel Jaime García 
-Filiberto Navarro Grifaldo 
 */
