@@ -100,7 +100,9 @@ A continuación, se muestran unos posibles estandares del proyecto
 
 ### Diagrama de Interfaces
 
-![interfaces](https://user-images.githubusercontent.com/115411941/232234827-7e5a14db-8d31-48f6-b4a5-722036807b6c.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/115411941/232234827-7e5a14db-8d31-48f6-b4a5-722036807b6c.png">
+</p>
 
 ### Diagrama de Colecciones para la Base de Datos
 
