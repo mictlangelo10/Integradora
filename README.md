@@ -106,7 +106,7 @@ A continuación, se presenta un posible estándar de programación para el desar
 ### Modelo de la Base de Datos
 La base de datos a utilizar será no relacioonal, en la que mediante el uso del gestor MongoDB Atlas se adminstraran ños datos del módulo. La base de datos se basa en la siguiente propuesta:
 
-- Colección Customer
+#### Colección Customer
 
 La colección Customer esta dedicada a almacenar los registros de los clientes registrados en el sistema, cuenta con los siguientes atributos:
 </br>
@@ -119,7 +119,8 @@ La colección Customer esta dedicada a almacenar los registros de los clientes r
 
 <p align="center"><img width="450" alt="image" src="https://user-images.githubusercontent.com/115411941/232182273-d95a0da1-e95b-4db1-898d-367ae1774ac8.png"></p>
 
-- Colección Class
+#### Colección Class
+
 La colección Clase esta diseñada para almacenar los registros de las clases registradas en el sistema, cuenta con diferentes atributos que complementan la información de las clases, los cuales son:
 </br>
 • "ClassName": Nombre de la Clase (cadena de caracteres)</br>
