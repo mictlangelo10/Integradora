@@ -14,7 +14,7 @@ En el modulo de clases se crearon 5 archivos que contienen código indispensable
 - service
 
 A continuación se adjunta el link directo para observar esta documentación.
-- [Documentación](https://github.com/mictlangelo10/Integradora/tree/main/Backend/src/main/java/com/integradora/gimnasio/Clases)
+- [Documentación de Clases](https://github.com/mictlangelo10/Integradora/tree/main/Backend/src/main/java/com/integradora/gimnasio/Clases)
 
 ## Módulo de Clientes
 
@@ -27,4 +27,4 @@ En el modulo de clientes, de igual manera se crearon 5 archivos que contienen c�
 - service
 
 A continuación se adjunta el link directo para observar esta documentación
-- [Documentación]()
+- [Documentación de Clientes](https://github.com/mictlangelo10/Integradora/tree/main/Backend/src/main/java/com/integradora/gimnasio/Clientes)
