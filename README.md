@@ -1,12 +1,6 @@
 # Integradora II: SGSG (Sistema de Gestión de Sportacus Gym)
 Repositoro dedicado para inetgrar documentación, procesos, código sobre la elaboración del proyecto Sportacus Gym, solicitado por la empresa iTTiVA
 
-# Participantes
-- Daniela Janeth Cruz Breña	(1221100295).
-- Miguel Ángel Hernández Solís (1220100587).
-- Miguel Ángel Jaime García (1220100319).
-- Filiberto Navarro Grifaldo (1221100296).  
-
 ## Acerca del Proyecto
 ### Descripción 
 
@@ -20,7 +14,7 @@ Llevar un mejor control administrativo en base a los clientes y empleados, produ
 En resumen, el proyecto es un sistema de gestión y administración de un gimnasio llamado "Sportacus Gym". El módulo de clases permite al Administrador agregar, modificar, eliminar y visualizar las clases disponibles, lo que garantiza un mejor control y organización del sistema. El módulo de inscripciones permite al usuario inscribir a los clientes en las clases existentes utilizando un código QR, que varía según el estado de pago del cliente. Si el cliente tiene un adeudo, se les niega el acceso a las clases y se envía una alerta al personal del sistema, pero si el cliente está al día en sus pagos, se le permite inscribirse y se envía una alerta que indica que el registro se ha realizado correctamente.
 
 
-### Objetivo general del proyecto
+### Objetivo general
 Llevar un mejor control administrativo en base a los clientes y empleados, productos y proveedores, así como las máquinas operantes y el manejo de todo aquello necesario para el óptimo funcionamiento del gimnasio llamado Sportacus (capital, chekin de empleados, inventario de productos).
 
 ### Objetivos específicos
@@ -113,11 +107,22 @@ A continuación, se presenta un posible estándar de programación para el desar
 
 ### Código Fuente
 ### Casos de Prueba
-### Guias
-#### Requisitos
-##### Hardware
-##### Software
+## Guias
+### Requisitos
+#### Hardware
+#### Software
 #### Guia de Instalación
 #### Manual de Uso
-### Contacto
-Correo 
+## Contacto
+Hernández Solís Miguel Ángel
+Correo electronico: miguehdzss29@gmail.com
+Teléfono: 4181446580
+Cruz Breña Daniela Janeth
+Correo electronico: daniela122cruz.11@gmail.com
+Teléfono: 4681025325
+
+# Participantes
+- Daniela Janeth Cruz Breña	(1221100295).
+- Miguel Ángel Hernández Solís (1220100587).
+- Miguel Ángel Jaime García (1220100319).
+- Filiberto Navarro Grifaldo (1221100296).  
