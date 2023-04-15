@@ -12,6 +12,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./ver-clases.component.css'],
 })
 export class VerClasesComponent implements OnInit {
+  // Definiendo variables
   clases: Clase[] = [];
   isAdmin: boolean = false;
   filterClase = '';
@@ -31,6 +32,7 @@ export class VerClasesComponent implements OnInit {
     this.isAdmin = this.token.isAdmin();
   }
 
+  // Método para obtener clases
   getClases(): void {
     this.claseService.list().subscribe(
       (data) => {
@@ -44,6 +46,7 @@ export class VerClasesComponent implements OnInit {
     );
   }
 
+  // Método para eliminar clases
   onDelete(id: number): void {
     Swal.fire({
       title: '¿Are you sure',
@@ -69,8 +72,11 @@ export class VerClasesComponent implements OnInit {
     });
   }
 
+  // Método para limpiar filtros
   limpiarFiltros() {
     this.filteredHora = '';
     this.filteredFecha = '';
   }
 }
+
+// Autor: Miguel Hernández
