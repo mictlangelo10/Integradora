@@ -13,12 +13,14 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./editar-clases.component.css']
 })
 export class EditarClasesComponent implements OnInit {
-
+  
+  // Declarando Variables
   isAdmin: boolean=false;
   clase!:Clase;
   id!:number;
   instructores:CreateUser[]=[];
 
+ // Asignando valores al constructor
   constructor(
     private claseService:ClaseService,
     private empleadoService:AuthService,
@@ -28,12 +30,14 @@ export class EditarClasesComponent implements OnInit {
     private activateRoute:ActivatedRoute
   ) { }
 
+// Definiendo métodos de entrada
   ngOnInit(): void {
     this.isAdmin = this.token.isAdmin();
     this.getClases();
     this.getInstructores();
   }
 
+  // Método para actualizar clases
   onUpdate():void{
     this.claseService.update(this.id,this.clase).subscribe(
       data=>{
@@ -46,7 +50,7 @@ export class EditarClasesComponent implements OnInit {
     );
   }
 
-
+// Método conultar instructores
   getInstructores():void{
     this.empleadoService.listByRol("ROLE_INSTRUCTOR").subscribe(
       data=>{
@@ -58,6 +62,7 @@ export class EditarClasesComponent implements OnInit {
     )
   }
 
+  // Método para obtener clases
   getClases(){
     this.id= this.activateRoute.snapshot.params['id'];
     this.claseService.detail(this.id).subscribe(
@@ -70,5 +75,6 @@ export class EditarClasesComponent implements OnInit {
       }
     );
   }
-
 }
+
+// Autor: Miguel Hernández
