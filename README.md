@@ -151,7 +151,7 @@ La separación de estas responsabilidades permite una mayor modularidad y flexib
 
 
 - Diagrama de MVC del módulo de clases
-- 
+
 ![image](https://user-images.githubusercontent.com/123588416/232230608-89a9b86a-8f48-4872-a1cc-af6890db6d7c.png)
 
 ### Diagrama de Componentes
