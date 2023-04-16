@@ -1,5 +1,8 @@
 # Documentación del Frontend
-Se muestra la documentación del código por parte del Frontend, en el que todos los participantes colaboraron arduamente para el correcto funcionamiento del mismo, a continuación se muestra los los archivos trabajados en orden de lista, así como lo que elaboró cada miembro del equipo. Se agrega un hipervinculo en cada componente para ubicarlo de mejor manera dentro del frontend.
+Se muestra la documentación del código por parte del Frontend, en el que todos los participantes colaboraron arduamente para el correcto funcionamiento del mismo, a continuación se muestra los los archivos trabajados en orden de lista, así como lo que elaboró cada miembro del equipo. Se agrega un hipervinculo en cada componente para ubicarlo de mejor manera dentro del frontend. Además, se resalta el apoyo del compañero Armando Gutierrez, quién colaboró y apoyo arduamente en la elaboración de este módulo.
+
+## Apoyados por
+- Armando Gutierrez
 
 
 ## Modulo de Clases
