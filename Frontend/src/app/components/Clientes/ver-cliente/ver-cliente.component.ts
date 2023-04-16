@@ -13,20 +13,24 @@ import Swal from 'sweetalert2';
   styleUrls: ['./ver-cliente.component.css']
 })
 export class VerClienteComponent implements OnInit {
+//Declarando variables
 filterClientes='';
 clientes:Clientes[]=[];
 isAdmin:boolean=false;
 isMan:boolean=false;
 isIns:boolean=false;
 
+  // Ingresando imports al constructor
   constructor(private clienteService:ClienteService,private toastr: ToastrService,private token:TokenService,private router:Router) { }
 
+  // Métodos de entrada
   ngOnInit(): void {
     $('#loading').css('display', 'block');
     this.listaClientes();
     this.isAdmin = this.token.isAdmin();
   }
 
+  // Obteniendo Clientes
   listaClientes():void{
     this.clienteService.list().subscribe(
       data=>{
@@ -40,6 +44,7 @@ isIns:boolean=false;
     );
   }
 
+  // Eliminando Clientes
   onDelete(id:number){
     Swal.fire({
       title: '¿Estas Seguro?',
@@ -72,3 +77,5 @@ isIns:boolean=false;
   }
 
 }
+
+// Autor: Miguel Hernández
