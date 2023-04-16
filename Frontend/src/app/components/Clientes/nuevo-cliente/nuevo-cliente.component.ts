@@ -14,6 +14,7 @@ import { TokenService } from 'src/app/service/token.service';
   styleUrls: ['./nuevo-cliente.component.css']
 })
 export class NuevoClienteComponent implements OnInit {
+  // Declarando Variables
   isAdmin: boolean=false;
 
   nombreCliente!: String;
@@ -26,14 +27,18 @@ export class NuevoClienteComponent implements OnInit {
   opcion!:String;
 
   clases:Clase[]=[];
+
+  // Asignando imports al constructor
   constructor(private clienteService:ClienteService,private claseService:ClaseService,private toastr: ToastrService, private router:Router, private token:TokenService) { 
   }
 
+  // Métodos de entrada
   ngOnInit(): void {
     this.getClases();
     this.isAdmin = this.token.isAdmin();
   }
 
+  // Método para crear la clase
   onCreate():void{
     const cliente=new Clientes(this.nombreCliente,this.nombreClase,this.edad,this.email,this.telefono,this.subcripcion);
     this.clienteService.save(cliente).subscribe(
@@ -49,6 +54,7 @@ export class NuevoClienteComponent implements OnInit {
     );
   }
 
+  // Método para obtener la clase
   getClases():void{
     this.claseService.list().subscribe(
       data=>{
@@ -60,6 +66,7 @@ export class NuevoClienteComponent implements OnInit {
     )
   }
 
+  // Método para cambios de clase
   onClaseChange(opcion: String) {
     console.log(opcion);
     if (this.nombreClase.includes(opcion)) {
@@ -68,6 +75,6 @@ export class NuevoClienteComponent implements OnInit {
       this.nombreClase.push(opcion);
     }
   }
-  
-
 }
+
+// Autor: Miguel Hernández
