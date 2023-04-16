@@ -5,6 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FilterClasePipe implements PipeTransform {
 
+  // Método para filtrar
   transform(value: any, arg: any): any {
     if(arg =='' || arg.length<2) return value;
     const resultadoClase=[];
@@ -17,3 +18,5 @@ export class FilterClasePipe implements PipeTransform {
   }
 
 }
+
+// Autor: Miguel Hernández
