@@ -5,6 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FilterClientePipe implements PipeTransform {
 
+  // Método para filtrar clientes
   transform(value: any, arg: any): any {
     if(arg =='' || arg.length<3) return value;
     const resultadoCliente=[];
@@ -19,3 +20,5 @@ export class FilterClientePipe implements PipeTransform {
   }
 
 }
+
+// Autor: Miguel Hernández
