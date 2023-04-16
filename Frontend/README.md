@@ -40,10 +40,10 @@ Se muestra la documentación del código por parte del Frontend, en el que todos
 - ver-cliente.component.html (Elaborado por Miguel Garcia y Filiberto Navarro)
 - ver-cliente.component.ts (Elaborado por Miguel Hernández)
 
-### Editar Clientes
-editar-cliente.component.css (Elaborado por Miguel García)
-editar-cliente.component.html (Elaborado por Daniela Cruz)
-editar-cliente.component.css (Elaborado por Miguel Hernández)
+### [Editar Clientes](https://github.com/mictlangelo10/Integradora/tree/main/Frontend/src/app/components/Clientes/editar-cliente)
+- editar-cliente.component.css (Elaborado por Miguel García)
+- editar-cliente.component.html (Elaborado por Daniela Cruz)
+- editar-cliente.component.css (Elaborado por Miguel Hernández)
 
 ### Servicios 
 
