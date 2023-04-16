@@ -4,7 +4,7 @@ En el backend trabajaron arduamente los integrantes del equipo Miguel Hernández
 ## Apoyados por:
 - Armando Gutierrez
 
-## [Módulo de Clases]((https://github.com/mictlangelo10/Integradora/tree/main/Backend/src/main/java/com/integradora/gimnasio/Clases)
+## [Módulo de Clases](https://github.com/mictlangelo10/Integradora/tree/main/Backend/src/main/java/com/integradora/gimnasio/Clases)
 - controller (Elaborado por Miguel Hernández y Daniela Cruz)
 - dto (Elaborado por Miguel Hernández y Daniela Cruz)
 - entity (Elaborado por Miguel Hernández y Daniela Cruz)
