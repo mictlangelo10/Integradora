@@ -86,7 +86,6 @@
     position: relative;
   }
   
-// Autor: MIguel Garcia
   .mat-select-panel {
     transform: translateY(50%);
     top: 50%;
@@ -115,3 +114,6 @@
     }
   }
   
+/*
+Autor: MIguel Garcia
+*/
