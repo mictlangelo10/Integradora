@@ -8,6 +8,7 @@ import { Clase } from '../models/clase';
   providedIn: 'root',
 })
 export class ClaseService {
+  //Declarando variables
   claseURL = environment.apiRestURL + '/Clase';
   constructor(private http: HttpClient) {}
 
