@@ -13,19 +13,23 @@ import { Clase } from 'src/app/models/clase';
   styleUrls: ['./editar-cliente.component.css']
 })
 export class EditarClienteComponent implements OnInit {
+  //Declarando variables
 
   isAdmin: boolean=false;
   cliente!:Clientes ;
   clases:Clase[]=[];
   opcion!:String;
 
+ //Agregando importaciones a los constructores
   constructor(private clienteService:ClienteService, private claseService:ClaseService ,private activateRoute:ActivatedRoute,private toastr: ToastrService,private router:Router,private token:TokenService) { }
-  ngOnInit(){
+//Método de entrada  
+ngOnInit(){
     this.isAdmin = this.token.isAdmin();
     this.getClientes();
     this.getClases();
   }
 
+  // Método para actualizar cliente
   onUpdate():void{
     const id=this.activateRoute.snapshot.params['id'];
     this.clienteService.update(id,this.cliente).subscribe(
@@ -42,6 +46,7 @@ export class EditarClienteComponent implements OnInit {
     );
   }
 
+  // Método para obtener los clientes
   getClientes():void{
     const id=this.activateRoute.snapshot.params['id'];
     this.clienteService.detail(id).subscribe(
@@ -56,6 +61,7 @@ export class EditarClienteComponent implements OnInit {
     );
   }
 
+  // Método para obtener las clases
   getClases():void{
     this.claseService.list().subscribe(
       data=>{
@@ -67,6 +73,7 @@ export class EditarClienteComponent implements OnInit {
     )
   }
 
+  // Método para cambiar la clase
   onClaseChange(event: any, opcion: String) {
     const isChecked = event.target.checked;
     if (isChecked) {
@@ -75,6 +82,8 @@ export class EditarClienteComponent implements OnInit {
       this.cliente.nombreClase = this.cliente.nombreClase.filter(c => c !== opcion);
     }
   }
-  
-
 }
+
+/*
+Autor: Miguel Hernández
+*/
