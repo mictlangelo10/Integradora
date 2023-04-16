@@ -1,5 +1,5 @@
 # Documentación del Backend
-En el backend trabajaron arduamente los integrantes del equipo Miguel Hernández y Daniela Cruz, haciendo que los documentos generados sean hechos por ambos individuos en cada uno de ellos, sin embargo, se resalta la importancia del compañero Armando Gutierrez, quien apoyo al equipo en la elaboración de este trabajo.
+En el backend trabajaron arduamente los integrantes del equipo Miguel Hernández y Daniela Cruz, haciendo que los documentos generados sean hechos por ambos individuos en cada uno de ellos, sin embargo, se resalta la importancia del compañero Armando Gutierrez, quien apoyo al equipo en la elaboración de este trabajo. Se anexan links de redireccionamiento en el titulo de los módulos para una ubicación inmediata de los archivos.
 
 ## Apoyados por:
 - Armando Gutierrez
