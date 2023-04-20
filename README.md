@@ -178,7 +178,7 @@ Se anexa la documentación del código desarrollado a lo largo del proyecto, est
 ## Casos de Prueba
 Con el propósito de verificar el desempeño adecuado del componente y garantizar que el artículo entregado al comprador no presente ningún defecto, se llevaron a cabo varios ensayos que se detallan a continuación junto con los resultados correspondientes.
 
-[Casos de prueba](https://docs.google.com/spreadsheets/d/1HHsbVE49IEYQMTA9IPGYHlhNp8qOx0ug/edit?usp=share_link&ouid=103096531010844924896&rtpof=true&sd=true)
+[Casos de prueba](https://docs.google.com/spreadsheets/d/1TUcWReMl9JoDwPD0rIpfXFqTGe24XpI8/edit?usp=share_link&ouid=103096531010844924896&rtpof=true&sd=true)
 
 ## Contacto
 - Hernández Solís Miguel Ángel</br>
